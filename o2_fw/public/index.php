@@ -32,7 +32,7 @@ fclose($fp);
 // 実行ファイルの読み込み
 require_once('./../execute/'.$ex.'.php');
 
-// プログラム実行（置き換え文字列の連即配列を取得する）
+// プログラム実行（置き換え文字列の連想配列を取得する）
 $replace  = array();
 $ex_class = new $ex();
 $replace  = $ex_class->execute();
